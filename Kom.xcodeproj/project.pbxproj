@@ -16,6 +16,10 @@
 		E083D4B62D0C736000B6DB44 /* KomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E083D4B52D0C736000B6DB44 /* KomTests.swift */; };
 		E083D4C02D0C736000B6DB44 /* KomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E083D4BF2D0C736000B6DB44 /* KomUITests.swift */; };
 		E083D4C22D0C736000B6DB44 /* KomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E083D4C12D0C736000B6DB44 /* KomUITestsLaunchTests.swift */; };
+		E083D4CF2D0C74E000B6DB44 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E083D4CE2D0C74E000B6DB44 /* LoginView.swift */; };
+		E083D4D12D0C750300B6DB44 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E083D4D02D0C750300B6DB44 /* SignUpView.swift */; };
+		E083D4D32D0C752F00B6DB44 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E083D4D22D0C752F00B6DB44 /* AuthViewModel.swift */; };
+		E083D4D52D0C78C000B6DB44 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E083D4D42D0C78C000B6DB44 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		E083D4BB2D0C736000B6DB44 /* KomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E083D4BF2D0C736000B6DB44 /* KomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KomUITests.swift; sourceTree = "<group>"; };
 		E083D4C12D0C736000B6DB44 /* KomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E083D4CE2D0C74E000B6DB44 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E083D4D02D0C750300B6DB44 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		E083D4D22D0C752F00B6DB44 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		E083D4D42D0C78C000B6DB44 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +106,14 @@
 		E083D49E2D0C735E00B6DB44 /* Kom */ = {
 			isa = PBXGroup;
 			children = (
-				E083D49F2D0C735E00B6DB44 /* KomApp.swift */,
 				E083D4A12D0C735E00B6DB44 /* ContentView.swift */,
-				E083D4A32D0C736000B6DB44 /* Assets.xcassets */,
+				E083D49F2D0C735E00B6DB44 /* KomApp.swift */,
+				E083D4CE2D0C74E000B6DB44 /* LoginView.swift */,
+				E083D4D02D0C750300B6DB44 /* SignUpView.swift */,
 				E083D4A82D0C736000B6DB44 /* Persistence.swift */,
+				E083D4D22D0C752F00B6DB44 /* AuthViewModel.swift */,
+				E083D4D42D0C78C000B6DB44 /* HomeView.swift */,
+				E083D4A32D0C736000B6DB44 /* Assets.xcassets */,
 				E083D4AA2D0C736000B6DB44 /* Kom.xcdatamodeld */,
 				E083D4A52D0C736000B6DB44 /* Preview Content */,
 			);
@@ -266,6 +278,10 @@
 				E083D4A92D0C736000B6DB44 /* Persistence.swift in Sources */,
 				E083D4A22D0C735E00B6DB44 /* ContentView.swift in Sources */,
 				E083D4A02D0C735E00B6DB44 /* KomApp.swift in Sources */,
+				E083D4D32D0C752F00B6DB44 /* AuthViewModel.swift in Sources */,
+				E083D4CF2D0C74E000B6DB44 /* LoginView.swift in Sources */,
+				E083D4D52D0C78C000B6DB44 /* HomeView.swift in Sources */,
+				E083D4D12D0C750300B6DB44 /* SignUpView.swift in Sources */,
 				E083D4AC2D0C736000B6DB44 /* Kom.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
